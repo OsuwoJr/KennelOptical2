@@ -195,3 +195,274 @@ header,main{
     text-shadow: 0 1px 0 rgba(0,0,0,0.4);
     
  }
+
+ 
+.schedule{
+   position: absolute;
+   list-style: none; 
+   text-align: center;
+   text-size-adjust: 1.5em
+}
+
+.schedulecontactus{
+    position: relative;
+    z-index: 3;
+    padding:var(--PADDING-TB) var(--PADDING-SIDE);
+    background-color: var(--BGCOLOR-TWO);
+    color:var(--BGCOLOR);
+   text-shadow:0 1px 0 rgba(0,0,0,0.2);
+    box-shadow: var(--SHADOW-LIGHT);
+    border-radius: 0.5em;
+    margin: 2em auto;
+    animation: scheduleContactus 0.5s ease-in 0s 1 normal forwards;
+
+}
+
+@keyframes scheduleContactus{
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/*TABLE*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .open-day {
+    background-color: #d4edda;
+  }
+
+  .closed-day {
+    background-color: #f8d7da;
+  }
+
+    /*CONTACT US*/
+
+    .contact__section {
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+      }
+  
+      .contactus__h2 {
+        text-align: center;
+      }
+  
+      .contact__list {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      .contact__item {
+        margin-bottom: 15px;
+        text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: var(--FF-HEADING);
+        line-height: 1.2em;
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+  
+      .telephone {
+        color: #3D10E8;
+      }
+  
+      .whatsapp {
+        color: #0ee95e; 
+    
+      }
+  
+      .gmail {
+        color: hsl(7, 67%, 52%);
+      }
+  
+      .post-office {
+        color: #3D10E8;
+      }
+
+      /*BOOK NOW FORM*/
+
+      .container {
+        
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      .form__row {
+        display: flex;
+        margin-bottom: 15px;
+      }
+  
+      .form__row label {
+        flex: 1;
+        padding-right: 10px;
+        text-align: right;
+      }
+  
+      .form__row input,
+      .form__row select {
+        flex: 2;
+        padding: 8px;
+        box-sizing: border-box;
+        width: 100%;
+      }
+  
+      .form__row select {
+        width: calc(100% - 18px);
+      }
+  
+      .form__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+  
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      }
+
+      /*SignUp*/
+      
+      .signup-container {
+        max-width: 400px;
+        background-color: var(--BGCOLOR-TWO);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+  
+      .signup-button {
+        background-color: var(--LINK-HOVER);
+        color: var(--BGCOLOR);
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+  
+      .social-buttons {
+        margin-top: 20px;
+      }
+  
+      .social-button {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: var(--BGCOLOR);
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      /*login*/
+      .login-container {
+        max-width: 400px;
+        background-color: var(--BGCOLOR-TWO);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+  
+      .login-button {
+        background-color: var(--LINK-HOVER);
+        color: var(--BGCOLOR);
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      .remember-forgot-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .remember-me,
+      .forgot-password {
+        flex: 1;
+        text-align: left;
+      }
+      .social-buttons {
+        margin-top: 20px;
+      }
+  
+      .social-button {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: var(--BGCOLOR);
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
