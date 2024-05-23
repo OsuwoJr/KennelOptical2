@@ -154,6 +154,16 @@ header,main{
     text-align: center;
     font-size: 0.8em;
     text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+ }
+
+ .home{
+    background-color: var(--BGCOLOR-TWO);
+    color:var(--BODY-COLOR);
+    padding:var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+    font-size: 0.8em;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+ }
  /*||FOOTER*/
  footer{
     background-color: var(--BGCOLOR-TWO);
